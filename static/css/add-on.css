@@ -1,0 +1,222 @@
+/* Colors */
+
+.dark-bg h1,
+.dark-bg h2,
+.dark-bg h3,
+.dark-bg h4,
+.dark-bg h5,
+.dark-bg h6 {
+	color: #b3a3b3;
+}
+.dark-bg {
+	color: #e3e3e3;
+}
+#main section.dark-bg {
+	background-color: #333;
+}
+
+/* Buttons */
+
+#main section .button,
+#main section button,
+.open-modal button {
+	background-color: #655e7a;
+	color: #fff;
+	border-color: #655e7a;
+}
+
+#main section.dark-bg .button,
+#main section.dark-bg button,
+.open-modal.dark-bg button {
+	background-color: #e3e3e3;
+	color: #3b3b3b;
+	border-color: #e3e3e3;
+}
+
+/* Overall styling */
+
+#main {
+	background-color: #fff;
+}
+
+html,
+body {
+	background-color: #fff;
+}
+
+#main article.subpage {
+	font-size: 14pt;
+	padding: 2em 8em 0;
+}
+
+/* Layouts & Positioning */
+
+.center {
+	margin: 0 auto;
+	width: fit-content;
+}
+
+.flowing {
+	max-width: 80em;
+	margin: 0 auto;
+}
+
+/* No react warning */
+
+.warning {
+	font-size: 2em;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Modal dialog formatting */
+
+.ReactModalPortal {
+}
+
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+	overflow: hidden;
+}
+
+.open-modal-overlay {
+	z-index: 11000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.open-modal {
+	z-index: 15000;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	right: 20%;
+	bottom: 10%;
+	border: 1px solid #ccc;
+	background: #fff;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	border-radius: 4px;
+	outline: none;
+	padding: 20px;
+	font-size: 16pt;
+}
+
+@media screen and (max-width: 735px) {
+	.open-modal {
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		border: 0;
+	}
+}
+
+.grid {
+	display: grid;
+	gap: 1em;
+}
+
+.grid.col-2 {
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid.col-3 {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Navigation drop-down */
+
+nav.main #profile-nav {
+	padding: 0 .5em;
+}
+
+nav.main #profile-nav .select-wrapper:before {
+	top: 0.4em;
+}
+
+/* Landing page hero formatting */
+
+#main section#hero .button {
+	background-color: rgb(227,227,227);
+	line-height: 2em;
+	height: 2em;
+	font-size: inherit;
+}
+
+article.landing section#hero h1 {
+	margin-bottom: 1.5em;
+	font-size: 60pt;
+	color: #fff;
+}
+
+/* Big, purple drop-downs */
+
+.select-wrapper.purple {
+	display: inline-block;
+	font-size: inherit;
+	color: rgb(227,227,227);
+}
+
+.select-wrapper.purple select {
+	background: #655e7a;
+	border: none;
+	border: solid 1px #655e7a;
+	border-radius: 6px;
+	color: inherit;
+	display: inline-block;
+	outline: 0;
+	margin: 0.25em 0;
+	padding: 0 3em 0 1em;
+	text-decoration: none;
+	width: auto;
+	height: 2em;
+	line-height: 2em;
+	font-size: inherit;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.select-wrapper.purple:before {
+	font-size: inherit;
+	opacity: 0.6;
+	color: #fff;
+	height: 2em;
+	line-height: 2em;
+	width: 2em;
+	margin: 0.25em 0;
+	transition: all 0.3s ease;
+}
+
+.select-wrapper.purple:hover,
+.select-wrapper.purple:hover:before {
+	color: #2ebaae;
+	opacity: 1;
+}
+
+/* Contact Us formatting */
+
+.band#contact textarea#details {
+	height: 30em;
+}
+
+.band#contact .grid.col-2 {
+	grid-template-columns: 1fr max-content;
+}
+
+.band#contact .social-buttons a {
+	font-size: 3em;
+	border: 0 none;
+	margin: 10px;
+}
+
+.band#contact .social-buttons {
+	list-style: none;
+	display: flex;
+}

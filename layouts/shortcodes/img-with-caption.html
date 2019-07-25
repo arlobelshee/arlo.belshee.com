@@ -1,0 +1,12 @@
+<figure class="captioned-image">
+	<img src='{{ .Get "url" | relURL }}' title='{{ .Get "caption" }}'>
+	<figcaption>
+		<h3>{{ .Get "caption" }}</h3>
+		{{ with .Get "subcaption" }}
+		<h4 class="subcaption">{{ . | markdownify }}</h4>
+		{{ end }}
+		{{ with .Get "description" }}
+		<p class="desc">{{ . | markdownify }}</p>
+		{{ end }}
+	</figcaption>
+</figure>

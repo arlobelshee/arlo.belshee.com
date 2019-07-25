@@ -1,0 +1,20 @@
+{{- partial "general-title" . -}}
+
+<!DOCTYPE HTML>
+<!--
+    Arcanum by Arlo Belshee
+-->
+<html>
+<head>
+	{{- partial "page-head" . -}}
+</head>
+<body>
+	{{- partial "navbar" . -}}
+	<!-- Main -->
+	<div id="main">
+		{{- block "main" . }}
+		{{- end -}}
+	</div>
+	<footer>Copyright &copy; {{ .Site.Params.copyrightYear }} {{ .Site.Params.copyrightOwner }}.</footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<!--
+    Arcanum by Arlo Belshee
+-->
+<html>
+
+<head>
+	{{- partial "page-head" . -}}
+</head>
+
+<body>
+	{{- .Scratch.Set "menu" .Site.Menus.everyone }}
+	{{- partial "navbar" . -}}
+	<!-- Main -->
+	<div id="main">
+		<article id="{{ .Params.id }}" class="landing">
+			 {{- trim .Content " \t\n\r" | safeHTML -}}
+		</article>
+	</div>
+	<a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+	{{- partial "closing-scripts" . -}}
+</body>
+
+</html>

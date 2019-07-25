@@ -1,0 +1,11 @@
+{{- define "main" -}}
+<article id="{{ .Params.id }}" class="subpage">
+	{{- if (.Site.Params.includeHeaderOnMarkdownPages | default true) }}
+	{{- $.Scratch.Set "h1" true }}
+	{{- .Render "header" }}
+	{{- end -}}
+	<section id="content">
+	{{- trim .Content " \t\n\r" | safeHTML -}}
+	</section>
+</article>
+{{ end }}

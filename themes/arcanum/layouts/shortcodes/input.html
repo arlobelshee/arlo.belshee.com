@@ -1,0 +1,8 @@
+{{- $label := (.Get "label") | default (.Get "name") -}}
+{{- $type := (.Get "type") | default "text" -}}
+{{- $name := (.Get "name") | lower | urlize -}}
+{{- if (eq $type "textarea") -}}
+<textarea placeholder="{{$label}}" name='{{$name}}' id='{{$name}}'></textarea>
+{{- else -}}
+<input type="{{$type}}" placeholder="{{$label}}" name='{{$name}}' id='{{$name}}'>
+{{- end -}}

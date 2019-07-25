@@ -1,0 +1,7 @@
+{{- define "main" -}}
+<article id="{{ .Params.id }}" class="landing">
+	<section id="content">
+		{{- trim .Content " \t\n\r" | safeHTML -}}
+	</section>
+</article>
+{{- end -}}

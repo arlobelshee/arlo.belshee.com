@@ -1,0 +1,19 @@
+{{- define "main" -}}
+<article id="{{ .Params.id }}" class="subpage">
+	<section class="intro">
+		{{- trim .Content " \t\n\r" | safeHTML -}}
+	</section>
+	<section class="content">
+		{{- range (.Paginate .Data.Pages.Reverse 25).Pages }}
+		{{- $.Scratch.Set "isOdd" (not ($.Scratch.Get "isOdd" | default false)) -}}
+		{{- if $.Scratch.Get "isOdd" }}
+		{{- .Scratch.Set "parity" "odd" }}
+		{{- else }}
+		{{- .Scratch.Set "parity" "even" }}
+		{{- end }}
+		{{- .Render "summary" }}
+		{{- end }}
+	</section>
+	{{- partial "pagination" . -}}
+</article>
+{{- end -}}

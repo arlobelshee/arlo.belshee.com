@@ -1,0 +1,26 @@
+enable: true
+title: Our Services
+subtitle: >
+  You can do it all yourself, but we can make it easier, faster, and cheaper.
+content:
+
+  - icon: ion-leaf
+    name: Code by Refactoring
+    problem: Pay technical debt
+    who: individual engineers
+    what: Disciplined Refactoring
+    giving: near-zero cost and risk to pay technical debt
+
+  - icon: ion-compass
+    name: Safeguarding
+    problem: Prevent highest-impact defects
+    who: dev teams
+    what: remediate hazards by following bugs data
+    giving: clear permission to refactor and a balanced spending that delivers both features and risk reduction
+
+  - icon: ion-earth
+    name: Data-driven Quality Leadership
+    problem: Sustaining quality even after leaders focus on the next big thing
+    who: leaders
+    what: drive local ownership, via data
+    giving: ongoing improvement in team's ability to deliver high-quality at low-cost, without needing constant leader attention
