@@ -36,7 +36,7 @@ Thus, drunken estimation. You estimate how drunk you'll have to be to make it th
 
 Now, look at all the alcohol you're going to be consuming. If it's more than a six-pack, you're going to be blotto --- too blotto to really complete the task. Thus, anything above a six beer problem is categorized as a fifth of whisky.
 
-Now a fifth of whisky problem cannot be taken on in one chunk. That way lies trips to the hospital. The only solution is to divide the problem into parts, split those parts among your loving teammates, and bring it within your tolerance levels.
+Now a fifth of whisky problem cannot be taken on in one chunk. That way lies trips to the hospital. The only solution is to bring in your loving teammates, divide the problem into parts, and take those parts on one at a time for as long as it takes.
 
 Unfortunately, there are problems that are even bigger than that. Some problems can't be solved with alcohol at all. You'd need hard drugs: LSD, peyote, cocaine, or the like. Breaking the problem down would just mean your entire team is on crack.
 
@@ -44,7 +44,7 @@ For hard drugs, the answer is simple: just say no! Find a way to never do that t
 
 In summary, to estimate an MMF (or perhaps a story):
 
-1.  Estimate how drunk you'd hae to be to make it through this or to figure this one out. Zero beers? One beer? Two? Up to six. If it's more than six, then would a fifth of whisky sufffice? Or would this one take hard drugs?
+1.  Estimate how drunk you'd have to be to make it through this or to figure this one out. Zero beers? One beer? Two? Up to six. If it's more than six, then would a fifth of whisky sufffice? Or would this one take hard drugs?
 2.  If it's just beers, that's your estimate. 0 is a perfecty valid estimate. It usually means the solution is boring and well-localized.
 3.  If it requires whisky, break it down and make sure the whole team partakes. Keep going until you've reduced it to beer problems.
 4.  Just say no to hard drugs!
