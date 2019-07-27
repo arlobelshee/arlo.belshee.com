@@ -22,7 +22,8 @@ The divides:
 
 This gives the 12 kinds of work
 
-| | Inventing | Selling | Collaborating |
+| &nbsp; | Inventing | Selling | Collaborating |
+|----|----|----|----|
 | Behaviors to create value | Dev: develop features | Sales | Scrum |
 | Data about value | Dev: lean startup | Sales data, CRM, Support | ?? |
 | Behaviors to create ease | Dev: refactoring legacy code | Outbound Marketing | Management and Leadership |
