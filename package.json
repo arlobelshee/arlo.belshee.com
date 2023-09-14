@@ -13,7 +13,7 @@
 		"prebuild": "npx webpack --run-prod",
 		"build": "hugo --cleanDestinationDir --forceSyncStatic",
 		"predev": "npx webpack",
-		"dev": "concurrently \"npm:watch\" \"npm:open-dev\""
+		"start": "concurrently \"npm:watch\" \"npm:open-dev\""
 	},
 	"repository": {
 		"type": "git",
