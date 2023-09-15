@@ -16,13 +16,12 @@
 	},
 	"keywords": [],
 	"devDependencies": {
+		"concurrently": "^8.2.1",
 		"exec-bin": "^1.0.0",
 		"hugo-installer": "^4.0.1"
 	},
 	"otherDependencies": {
 		"hugo": "0.118.2"
-	},
-	"dependencies": {
 	},
 	"author": "Arlo Belshee",
 	"license": "proprietary"
