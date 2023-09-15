@@ -12,6 +12,6 @@
 {{- end -}}
 <section class='band {{ $bg }}-bg'{{ with .Get "id" }} id="{{ . }}"{{ end }}{{ with .Get "cssclass" }} class="{{ . }}"{{ end }}{{ with ($.Scratch.Get "style") }} {{ . }}{{ end }}>
 	<div class="band-content">
-		{{- .Inner -}}
+		{{- .Inner | markdownify -}}
 	</div>
 </section>

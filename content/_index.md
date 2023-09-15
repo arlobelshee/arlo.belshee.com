@@ -3,39 +3,28 @@ id = "home"
 layout = "landing"
 +++
 
-{{% blank-space-fix %}}
-{{% band bg-photo="img/hero-bg.jpg" bg="dark" id="hero" %}}
+{{< blank-space-fix >}}
+{{< band bg-photo="/img/hero-bg.jpg" bg="dark" id="hero" >}}
 
 # I love Legacy Code
 ## Let Me Show You Why
 
-{{% /band %}}
-{{% band bg="light" id="problem" %}}
+{{< /band >}}
+{{< band bg="light" id="problem" >}}
 
 ## The Situation
 
-{{% grid cols="col-2" %}}
-{{% flow-item %}}
+{{< grid cols="col-2" >}}
+{{< flow-item >}}
 Leading with Legacy Code
-{{% /flow-item %}}
-{{% flow-item %}}
+{{< /flow-item >}}
+{{< flow-item >}}
 Engineering With Legacy Code
-{{% /flow-item %}}
-{{% /grid %}}
+{{< /flow-item >}}
+{{< /grid >}}
 
-{{% /band %}}
-{{% band bg="dark" id="company" %}}
-
-## How We Can Help
-
-1-hour coaching call, focused on identifying, quantifying, and selling technical investment opportunities.
-
-1/2 day remote workshop. You and your team practice the techniques and agree on the rubric, guided by a facilitator.
-
-8 Influences Analysis!
-
-{{% /band %}}
-{{% band bg="light" id="consult" %}}
+{{< /band >}}
+{{< band bg="dark" id="company" >}}
 
 ## How We Can Help
 
@@ -45,8 +34,19 @@ Engineering With Legacy Code
 
 8 Influences Analysis!
 
-{{% /band %}}
-{{% band bg="dark" id="start" %}}
+{{< /band >}}
+{{< band bg="light" id="consult" >}}
+
+## How We Can Help
+
+1-hour coaching call, focused on identifying, quantifying, and selling technical investment opportunities.
+
+1/2 day remote workshop. You and your team practice the techniques and agree on the rubric, guided by a facilitator.
+
+8 Influences Analysis!
+
+{{< /band >}}
+{{< band bg="dark" id="start" >}}
 
 ## Getting Started on Your Own
 
@@ -74,15 +74,15 @@ Weakness: most appearance of information with least actual information of all pe
 
 Inspire 5 engineers to try it! Set a big, audacious goal and message it thoroughly.
 
-{{% /band %}}
-{{% band bg="light" id="contact" %}}
+{{< /band >}}
+{{< band bg="light" id="contact" >}}
 
 ## Contact Us!
 
 Reach out, and we'll happily contact you on your communications channel of choice.
 
-{{% grid cols="col-2" %}}
-{{% flow-item %}}
+{{< grid cols="col-2" >}}
+{{< flow-item >}}
 
 {{< input label="The email address, phone number, or twitter handle we should contact" name="contact" >}}
 
@@ -96,12 +96,12 @@ Reach out, and we'll happily contact you on your communications channel of choic
 
 <button>Contact</button>
 
-{{% /flow-item %}}
-{{% flow-item %}}
+{{< /flow-item >}}
+{{< flow-item >}}
 Connect on social media:
 {{< social-buttons >}}
-{{% /flow-item %}}
-{{% /grid %}}
-{{% /band %}}
+{{< /flow-item >}}
+{{< /grid >}}
+{{< /band >}}
 
-{{% /blank-space-fix %}}
+{{< /blank-space-fix >}}
