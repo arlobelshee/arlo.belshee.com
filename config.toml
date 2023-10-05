@@ -84,17 +84,24 @@ noChmod = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
+
+# [[menu.main]]
+#   name = "About us"
+#   url = "/about"
+#   identifier = "far fa-id-card"
+#   weight = 2
+
 [[menu.main]]
-  name = "About us"
-  url = "/about"
+  name = "Resume"
+  url = "/resume"
   identifier = "far fa-id-card"
   weight = 2
 
-[[menu.main]]
-  name = "Past Work"
-  url = "/work"
-  identifier = "far fa-id-card"
-  weight = 3
+# [[menu.main]]
+#   name = "Past Work"
+#   url = "/work"
+#   identifier = "far fa-id-card"
+#   weight = 3
 
 [[menu.main]]
   name = "Technical Articles"
@@ -102,17 +109,17 @@ noChmod = true
   identifier = "far fa-newspaper"
   weight = 4
 
-[[menu.main]]
-  name = "Services"
-  url = "/services"
-  identifier = "far fa-list-alt"
-  weight = 5
+# [[menu.main]]
+#   name = "Services"
+#   url = "/services"
+#   identifier = "far fa-list-alt"
+#   weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "/contact"
-  identifier = "far fa-envelope"
-  weight = 6
+# [[menu.main]]
+#   name = "Contact"
+#   url = "/contact"
+#   identifier = "far fa-envelope"
+#   weight = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
