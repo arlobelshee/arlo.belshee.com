@@ -1,0 +1,10 @@
+{{- $timelineBegin := .Parent.Get "from" | float -}}
+{{ $timelineEnd := .Parent.Get "to" | float -}}
+{{ $timelineYearSize := (div 100.0 (sub $timelineEnd $timelineBegin)) -}}
+{{ $from := .Get "from" | float -}}
+{{ $to := .Get "to" | float -}}
+{{ $begin := sub $from $timelineBegin -}}
+{{ $end := sub $to $timelineBegin -}}
+{{ $top := sub 100.0 (mul $end $timelineYearSize) -}}
+{{ $bottom := mul $begin $timelineYearSize -}}
+<div class="timeline-range{{ with .Get "category" }} {{ . }}{{ end }}" style="top: {{ $top }}%;bottom: {{ $bottom }}%;">{{ .Inner }}</div>

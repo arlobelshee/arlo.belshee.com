@@ -36,8 +36,8 @@
 /* Print styles */
 
 @media print {
-	header#header, section#menu {
-		display: none;
+	header#header, section#menu, a#back-to-top {
+		display: none !important;
 	}
 	#main, body {
 		margin: 0 !important;
@@ -73,63 +73,6 @@ body {
 	margin: 0 auto;
 }
 
-/* No react warning */
-
-.warning {
-	font-size: 2em;
-}
-
-.hidden {
-	display: none;
-}
-
-/* Modal dialog formatting */
-
-.ReactModalPortal {
-}
-
-.ReactModal__Body--open,
-.ReactModal__Html--open {
-	overflow: hidden;
-}
-
-.open-modal-overlay {
-	z-index: 11000;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
-.open-modal {
-	z-index: 15000;
-	position: absolute;
-	top: 10%;
-	left: 20%;
-	right: 20%;
-	bottom: 10%;
-	border: 1px solid #ccc;
-	background: #fff;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
-	border-radius: 4px;
-	outline: none;
-	padding: 20px;
-	font-size: 16pt;
-}
-
-@media screen and (max-width: 735px) {
-	.open-modal {
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		border: 0;
-	}
-}
-
 .grid {
 	display: grid;
 	gap: 1em;
@@ -141,6 +84,43 @@ body {
 
 .grid.col-3 {
 	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Timeline */
+
+.timeline {
+	position: relative;
+	height: 8in;
+	width: 100%;
+	padding: 0.5em 0;
+	overflow: visible;
+}
+
+.timeline-entry {
+	position: absolute;
+	border-radius: 0.4em;
+	border: 1px solid black;
+	padding: 0.5em;
+	margin-left: 4px;
+	overflow: visible;
+}
+
+.timeline-entry :last-child {
+	margin-bottom: 0;
+}
+
+.timeline-entry .arrow {
+	position: absolute;
+	left: -0.5em;
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-right: 8px solid black;
+	border-bottom: 4px solid transparent;
+}
+
+.timeline-range {
+	position: absolute;
 }
 
 /* Navigation drop-down */

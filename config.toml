@@ -42,7 +42,7 @@ noChmod = true
   navbarTitle          = "Arlo Belshee"
 	date_format = "2 January 2006"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/news"
+  viewMorePostLink     = "/techies"
 	includeSearch = false
 
 # Optional Params
@@ -81,6 +81,9 @@ noChmod = true
   # files by adding the value, "default".
   customCSS            = ["default", "/css/add-on.css"]
   customJS             = ["default"]
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
