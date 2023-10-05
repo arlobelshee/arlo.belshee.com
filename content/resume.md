@@ -19,7 +19,7 @@ Specialties:
 
 # Timeline
 
-{{< timeline from="1999" to="2023" >}}
+{{< timeline from="1999" to="2024" >}}
 
 {{% timeline-entry when="2022" category="success" %}}
 This will be my timeline.

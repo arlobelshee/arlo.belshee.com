@@ -96,6 +96,17 @@ body {
 	overflow: visible;
 }
 
+.timeline-year {
+	position: absolute;
+	left: 250px;
+	border: 1px solid black;
+	z-index: 1;
+	background: white;
+	transform: translate(-50%, -50%);
+	padding: 0.5em 1.0em;
+	line-height: 1.0;
+}
+
 .timeline-entry {
 	position: absolute;
 	border-radius: 0.4em;
