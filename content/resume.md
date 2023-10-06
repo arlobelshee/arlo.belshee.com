@@ -6,9 +6,6 @@ layout = "landing"
 
 # TL;DR
 
-Me:
-
-* I am a polymath; I go deep in many areas at once.
 * I am here to improve the (often woeful) state of software engineering. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
 * I lead using data before influence, and influence before authority.
 
