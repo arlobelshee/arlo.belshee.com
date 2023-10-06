@@ -111,6 +111,7 @@ body {
 	width: 100%;
 	padding: 0.5em 0;
 	overflow: visible;
+	margin-bottom: 1em;
 }
 
 .timeline-track {
@@ -172,16 +173,24 @@ h2.timeline-header {
 }
 
 .timeline-range.role {
+	text-align: right;
+}
+
+.timeline-range.role, .timeline-range.learn {
 	overflow: visible;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align: right;
 }
 
-.timeline-entry *, .timeline-range.role *, .timeline-range.publish *, .timeline-range.learn * {
+.timeline-entry *, .timeline-range.role *, .timeline-range.publish * {
 	line-height: 1.0;
 	margin-bottom: 0.2em;
+}
+
+.timeline-range.learn * {
+	line-height: 1.2;
+	margin-bottom: 0.5em;
 }
 
 .timeline-range.role::after,
@@ -241,6 +250,11 @@ h2.timeline-header.publish {
 .timeline-entry.publish {
 	width: 10%;
 	left: 34%;
+}
+
+h2.timeline-header.learn {
+	left: 50%;
+	display: block;
 }
 
 .timeline-range.learn {

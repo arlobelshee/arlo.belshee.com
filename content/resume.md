@@ -151,6 +151,33 @@ First keynote
 Publish Promiscuous Pairing paper
 {{% /timeline-entry %}}
 
+{{% timeline-range from="1999" to="2003" category="learn" %}}
+C++ (8)
+
+XP, CI, automation, TDD (23), refactoring (23)
+
+Team building (15), consultative leadership (8), continuous transformation (11), team management (4)
+{{% /timeline-range %}}
+
+{{% timeline-range from="2003" to="2009" category="learn" %}}
+Python (8), C# (12), Javascript (15), Haskell (1), F# (1)
+
+Full-stack development (18)
+{{% /timeline-range %}}
+
+{{% timeline-range from="2009" to="2011" category="learn" %}}
+ColdFusion (2)
+
+System evolution (12), code transformation (12)
+
+Conflict navigation and restoration (12), emotional fluency (12)
+{{% /timeline-range %}}
+
 {{< /timeline >}}
+
+<sup>*</sup> Skills are listed in the year learned. Each lists years of experience in parentheses.
+
+* Code-oriented: language design, architecture, tool building, incrementalism.
+* Human-oriented: creating a data-oriented culture.
 
 {{% /blank-space-fix %}}
