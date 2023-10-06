@@ -3,4 +3,4 @@
 {{ $timelineYearSize := (div 100.0 (sub $timelineEnd $timelineBegin)) -}}
 {{ $when := sub $timelineEnd (.Get "when" | float) -}}
 {{ $top := mul $when $timelineYearSize -}}
-<div class="timeline-entry" style="top: {{$top}}%;transform: translate(0, -{{ $top }}%);"><div class="arrow" aria-hidden="true" style="top: {{$top}}%;"></div>{{ .Inner }}</div>
+<div class="timeline-entry{{ with .Get "category" }} {{ . }}{{ end }}" style="top: {{$top}}%;transform: translate(0, -{{ $top }}%);"><div class="arrow" aria-hidden="true" style="top: {{$top}}%;"></div>{{ .Inner }}</div>

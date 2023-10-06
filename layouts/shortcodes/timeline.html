@@ -3,6 +3,11 @@
 {{ $timelineYearSize := (div 100.0 (sub $timelineEnd $timelineBegin)) -}}
 <div class="timeline">
 	<div class="timeline-track" aria-hidden></div>
+	<h2 class="timeline-header role deep" aria-hidden>Deep Role</h2>
+	<h2 class="timeline-header role broad" aria-hidden>Broad Role</h2>
+	<h2 class="timeline-header publish" aria-hidden>Speak / Publish</h2>
+	<h2 class="timeline-header learn" aria-hidden>Learn</h2>
+	<h2 class="timeline-header success" aria-hidden>Successes</h2>
 	{{- range $when := (seq $timelineBegin 5 $timelineEnd) -}}
 	{{ $top := mul (sub $timelineEnd $when) $timelineYearSize -}}
 	<div class="timeline-year" style="top: {{$top}}%;">

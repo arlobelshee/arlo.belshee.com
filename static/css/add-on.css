@@ -116,22 +116,30 @@ body {
 	line-height: 1.0;
 }
 
+h2.timeline-header {
+	font-size: 80%;
+	border: 1px solid #b3a3b3;
+	width: fit-content;
+	padding: 0 0.4em;
+	position: absolute;
+	top: -13pt;
+	transform: translate(-50%, 0);
+	display: none;
+}
+
 .timeline-entry {
 	position: absolute;
 	border-radius: 0.4em;
 	border: 1px solid black;
-	padding: 0.5em;
+	padding: 4px 2px 2px;
 	margin-left: 4px;
 	overflow: visible;
-}
-
-.timeline-entry :last-child {
-	margin-bottom: 0;
+	font-size: 75%;
 }
 
 .timeline-entry .arrow {
 	position: absolute;
-	left: -0.5em;
+	left: -9px;
 	width: 0;
 	height: 0;
 	border-top: 4px solid transparent;
@@ -141,6 +149,99 @@ body {
 
 .timeline-range {
 	position: absolute;
+	font-size: 75%;
+}
+
+.timeline-range.role {
+	overflow: visible;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: right;
+}
+
+.timeline-entry *, .timeline-range.role *, .timeline-range.publish *, .timeline-range.learn * {
+	line-height: 1.0;
+	margin-bottom: 0.2em;
+}
+
+.timeline-range.role::after,
+.timeline-range.learn::after,
+.timeline-range.publish::after {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	content: '';
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 6px;
+	overflow: visible;
+}
+
+.timeline-range.role::after {
+	right: -10px;
+	border-left: 1px solid black;
+}
+
+.timeline-range.learn::after,
+.timeline-range.publish::after {
+	left: -10px;
+	border-right: 1px solid black;
+}
+
+h2.timeline-header.role.deep {
+	left: calc(38px + 5%);
+	display: block;
+}
+
+.timeline-range.role.deep {
+	width: 10%;
+	left: 30px;
+}
+
+h2.timeline-header.role.broad {
+	left: 21%;
+	display: block;
+}
+
+.timeline-range.role.broad {
+	width: 10%;
+	left: 16%;
+}
+
+h2.timeline-header.publish {
+	left: 39%;
+	display: block;
+}
+
+.timeline-range.publish {
+	width: 10%;
+	left: 34%;
+}
+
+.timeline-entry.publish {
+	width: 10%;
+	left: 34%;
+}
+
+.timeline-range.learn {
+	width: 10%;
+	left: 45%;
+}
+
+h2.timeline-header.success {
+	left: 76.5%;
+	display: block;
+}
+
+.timeline-entry.success-1 {
+	left: 55%;
+	width: 20%;
+}
+
+.timeline-entry.success-2 {
+	left: 78%;
+	width: 20%;
 }
 
 .timeline-range.era {
