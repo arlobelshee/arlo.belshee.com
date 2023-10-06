@@ -96,9 +96,18 @@ body {
 	overflow: visible;
 }
 
+.timeline-track {
+	position: absolute;
+	left: 30%;
+	top: 0;
+	bottom: 0;
+	width: 5px;
+	background-color: black;
+}
+
 .timeline-year {
 	position: absolute;
-	left: 250px;
+	left: 30%;
 	border: 1px solid black;
 	z-index: 1;
 	background: white;
@@ -132,6 +141,26 @@ body {
 
 .timeline-range {
 	position: absolute;
+}
+
+.timeline-range.era {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	left: 0;
+	margin-left: 1.5em;
+	width: 0.5em;
+	overflow: visible;
+}
+
+.timeline-range.era p {
+	position: absolute;
+	transform-origin: 0 0;
+	top: 50%;
+	left: -1.8em;
+	transform: rotate(-90deg) translate(-50%, 0);
+	white-space: nowrap;
+	text-align: center;
 }
 
 /* Navigation drop-down */

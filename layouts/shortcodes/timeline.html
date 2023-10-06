@@ -2,6 +2,7 @@
 {{ $timelineEnd := .Get "to" | float -}}
 {{ $timelineYearSize := (div 100.0 (sub $timelineEnd $timelineBegin)) -}}
 <div class="timeline">
+	<div class="timeline-track" aria-hidden></div>
 	{{- range $when := (seq $timelineBegin 5 $timelineEnd) -}}
 	{{ $top := mul (sub $timelineEnd $when) $timelineYearSize -}}
 	<div class="timeline-year" style="top: {{$top}}%;">

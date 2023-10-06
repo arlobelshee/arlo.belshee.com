@@ -26,7 +26,15 @@ This will be my timeline.
 {{% /timeline-entry %}}
 
 {{% timeline-range from="1999" to="2010" category="era" %}}
-Master Delivery.
+Master Coding and Delivery
+{{% /timeline-range %}}
+
+{{% timeline-range from="2010" to="2015" category="era" %}}
+Master Legacy Code
+{{% /timeline-range %}}
+
+{{% timeline-range from="2015" to="2023" category="era" %}}
+Lead Legacy Code Saves
 {{% /timeline-range %}}
 
 {{% timeline-range from="1999" to="2003" category="role" %}}
