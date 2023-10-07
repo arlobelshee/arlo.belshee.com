@@ -11,11 +11,13 @@ function drawCharts() {
 		const rows = JSON.parse(target.getAttribute('data-rows'));
 		data.addRows(rows);
 
-		var barchart_options = {
-			title: 'Barchart: How Much Pizza I Ate Last Night',
+		const title = target.getAttribute('data-title');
+		var chart_options = {
+			title: title,
 			legend: 'none'
 		};
-		var barchart = new google.visualization.BarChart(target);
-		barchart.draw(data, barchart_options);
+		const chart_type = target.getAttribute('data-type');
+		var chart = new google.visualization[chart_type](target);
+		chart.draw(data, chart_options);
 	}
 }
