@@ -7,6 +7,7 @@
 	--color-bg-dark: #333;
 	--color-text-normal: black;
 	--color-text-normal-on-dark-bg: #e3e3e3;
+	--color-text-lighter: #666666;
 	--color-text-subtle: #cbcbcb;
 	--color-text-subtle-on-dark-bg: #b3a3b3;
 	--color-text-on-light-controls: #3b3b3b;
@@ -103,15 +104,25 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* Resume-specific */
+
+#resume ul {
+	margin-bottom: 0.3em;
+}
+
+#resume > h1 {
+	margin: 0;
+}
+
 /* Timeline */
 
 .timeline {
 	position: relative;
-	height: 8in;
+	height: 7.5in;
 	width: 100%;
 	padding: 0.5em 0;
 	overflow: visible;
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
 .timeline-track {
@@ -136,9 +147,9 @@ body {
 }
 
 h2.timeline-header {
-	font-size: 80%;
-	border: var(--border);
-	border-color: var(--color-text-subtle);
+	font-size: 90%;
+	font-weight: bold;
+	color: var(--color-text-lighter);
 	width: fit-content;
 	padding: 0 0.4em;
 	position: absolute;
@@ -183,6 +194,10 @@ h2.timeline-header {
 	justify-content: center;
 }
 
+.timeline-range.publish {
+	padding-top: 0.7em;
+}
+
 .timeline-entry *, .timeline-range.role *, .timeline-range.publish * {
 	line-height: 1.0;
 	margin-bottom: 0.2em;
@@ -191,6 +206,7 @@ h2.timeline-header {
 .timeline-range.learn * {
 	line-height: 1.2;
 	margin-bottom: 0.5em;
+	font-size: 80%;
 }
 
 .timeline-range.role::after,
@@ -238,28 +254,28 @@ h2.timeline-header.role.broad {
 }
 
 h2.timeline-header.publish {
-	left: 39%;
+	left: 50%;
 	display: block;
 }
 
 .timeline-range.publish {
 	width: 10%;
-	left: 34%;
+	left: 45%;
 }
 
 .timeline-entry.publish {
 	width: 10%;
-	left: 34%;
+	left: 45%;
 }
 
 h2.timeline-header.learn {
-	left: 50%;
+	left: 39%;
 	display: block;
 }
 
 .timeline-range.learn {
 	width: 10%;
-	left: 45%;
+	left: 34%;
 }
 
 h2.timeline-header.success {

@@ -6,13 +6,8 @@ layout = "landing"
 
 # TL;DR
 
-* I am here to improve the (often woeful) state of software engineering. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
+* I am here to improve the (often woeful) state of software engineering using tools, data, and an equal respect for past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
 * I lead using data before influence, and influence before authority.
-
-Specialties:
-
-* Code-oriented: language design, architecture, tool building, incrementalism, full-stack development, refactoring, code transformation, and system evolution.
-* Human-oriented: include conflict navigation, team building, consultative leadership, creating a data-oriented culture, emotional fluency, and continuous transformation.
 
 # Timeline
 
@@ -152,32 +147,53 @@ Publish Promiscuous Pairing paper
 {{% /timeline-entry %}}
 
 {{% timeline-range from="1999" to="2003" category="learn" %}}
-C++ (8)
+C++ (8), SQL (24)
 
-XP, CI, automation, TDD (23), refactoring (23)
+Extreme Programming (18), CI, automation (23), TDD (23), refactoring (23), pair programming (18)
 
-Team building (15), consultative leadership (8), continuous transformation (11), team management (4)
+team building (15), consultative leadership (8), continuous transformation (11), team management (4)
 {{% /timeline-range %}}
 
 {{% timeline-range from="2003" to="2009" category="learn" %}}
 Python (8), C# (12), Javascript (15), Haskell (1), F# (1)
 
-Full-stack development (18)
+Full-stack development (17), tool building (15), incremental development (15)
+
+systems thinking (20)
 {{% /timeline-range %}}
 
 {{% timeline-range from="2009" to="2011" category="learn" %}}
-ColdFusion (2)
+ColdFusion (2), Erlang (1)
 
-System evolution (12), code transformation (12)
+system evolution (12), code transformation (12)
 
-Conflict navigation and restoration (12), emotional fluency (12)
+conflict navigation and restoration (12), emotional fluency (12)
+{{% /timeline-range %}}
+
+{{% timeline-range from="2011" to="2016" category="learn" %}}
+Typescript (6), OData (4), language design (8)
+
+architecture (8)
+
+incremental growth (14), data-driven decision-making (10), creating a data-oriented culture (8)
+{{% /timeline-range %}}
+
+{{% timeline-range from="2016" to="2020" category="learn" %}}
+Elm (1), Hugo (7), React (2)
+
+Lean Startup (4), gradualism (5), instructional design (7), behavioral engineering (3)
+{{% /timeline-range %}}
+
+{{% timeline-range from="2020" to="2024" category="learn" %}}
+Vue (3), Dart (1), Flutter (1), Go (1), Kotlin (1)
+
+distributed systems (3), automating regulatory requirements (2)
 {{% /timeline-range %}}
 
 {{< /timeline >}}
 
 <sup>*</sup> Skills are listed in the year learned. Each lists years of experience in parentheses.
 
-* Code-oriented: language design, architecture, tool building, incrementalism.
-* Human-oriented: creating a data-oriented culture.
+* Code-oriented: , distributed systems.
 
 {{% /blank-space-fix %}}
