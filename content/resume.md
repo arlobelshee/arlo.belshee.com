@@ -17,11 +17,23 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 {{< timeline from="1999" to="2024" >}}
 
 {{% timeline-entry when="2022" category="success-1" %}}
-<div class="google_chart"></div>
+<div class="google_chart" data-cols='[["string", "Topping"], ["number", "Slices"]]' data-rows='[
+			["M", 3],
+			["On", 1],
+			["Ol", 1],
+			["Z", 1],
+			["P", 2]
+		]'></div>
 {{% /timeline-entry %}}
 
 {{% timeline-entry when="2020" category="success-2" %}}
-<div class="google_chart"></div>
+<div class="google_chart" data-cols='[["string", "Food"], ["number", "Qty"]]' data-rows='[
+			["Mushrooms", 3],
+			["Onions", 1],
+			["Olives", 1],
+			["Zucchini", 1],
+			["Pepperoni", 2]
+		]'></div>
 {{% /timeline-entry %}}
 
 {{% timeline-range from="1999" to="2010" category="era" %}}

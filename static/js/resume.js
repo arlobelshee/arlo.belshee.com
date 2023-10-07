@@ -4,15 +4,12 @@ google.charts.setOnLoadCallback(drawCharts);
 function drawCharts() {
 	for (const target of document.getElementsByClassName('google_chart')) {
 		var data = new google.visualization.DataTable();
-		data.addColumn('string', 'Topping');
-		data.addColumn('number', 'Slices');
-		data.addRows([
-			['Mushrooms', 3],
-			['Onions', 1],
-			['Olives', 1],
-			['Zucchini', 1],
-			['Pepperoni', 2]
-		]);
+		const cols = JSON.parse(target.getAttribute('data-cols'));
+		for (col of cols) {
+			data.addColumn(...col);
+		}
+		const rows = JSON.parse(target.getAttribute('data-rows'));
+		data.addRows(rows);
 
 		var barchart_options = {
 			title: 'Barchart: How Much Pizza I Ate Last Night',
