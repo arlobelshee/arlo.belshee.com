@@ -1,8 +1,11 @@
 +++
 id = "resume"
 layout = "landing"
+customjs = ["https://www.gstatic.com/charts/loader.js", "resume.js"]
+description = "Learn about Arlo Belshee. I am here to improve the (often woeful) state of software engineering using tools, data, and an equal respect for past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery. I lead using data before influence, and influence before authority."
 +++
 {{% blank-space-fix %}}
+
 
 # TL;DR
 
