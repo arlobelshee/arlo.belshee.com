@@ -1,7 +1,7 @@
 +++
 id = "resume"
 layout = "landing"
-customjs = ["https://www.gstatic.com/charts/loader.js", "resume.js"]
+customjs = ["https://www.gstatic.com/charts/loader.js", "/js/resume.js"]
 description = "Learn about Arlo Belshee. I am here to improve the (often woeful) state of software engineering using tools, data, and an equal respect for past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery. I lead using data before influence, and influence before authority."
 +++
 {{% blank-space-fix %}}
@@ -9,7 +9,7 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 
 # TL;DR
 
-* I am here to improve the (often woeful) state of software engineering using tools, data, and an equal respect for past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
+* I am here to improve the (often woeful) state of software engineering using tools, data, and a deep respect for both past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
 * I lead using data before influence, and influence before authority.
 
 # Timeline
@@ -17,7 +17,11 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 {{< timeline from="1999" to="2024" >}}
 
 {{% timeline-entry when="2022" category="success-1" %}}
-Huge success!
+<div class="google_chart"></div>
+{{% /timeline-entry %}}
+
+{{% timeline-entry when="2020" category="success-2" %}}
+<div class="google_chart"></div>
 {{% /timeline-entry %}}
 
 {{% timeline-range from="1999" to="2010" category="era" %}}
