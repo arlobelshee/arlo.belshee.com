@@ -1,1 +1,1 @@
-<div class="google_chart" data-type="BarChart" data-title="{{ .Get 0 }}" data-cols='{{ replace (.Get 1) "'" "\"" }}' data-rows='{{ replaceRE `\s` "" (replace (.Inner) "'" "\"") }}'></div>
+<div class="google_chart" data-type="BarChart"{{ with .Get 2 }} data-options='{{ replace . "'" "\"" }}' {{ end }} data-title="{{ .Get 0 }}" data-cols='{{ replace (.Get 1) "'" "\"" }}' data-rows='{{ replaceRE `\s` "" (replace (.Inner) "'" "\"") }}'></div>

@@ -12,15 +12,17 @@ function drawCharts() {
 		data.addRows(rows);
 
 		const title = target.getAttribute('data-title');
-		var chart_options = {
+		const options = JSON.parse(target.getAttribute('data-options') || '{}');
+		const chart_options = {
 			title: title,
 			legend: { position: 'bottom' },
-			series: [{color: 'blue'}, {color: 'olive'}],
+			series: [{ color: 'blue' }, { color: 'olive' }, { color: 'goldenrod' }],
 			width: target.clientWidth - 4,
 			height: 150,
 		};
+		Object.assign(chart_options, options);
 		const chart_type = target.getAttribute('data-type');
-		var chart = new google.visualization[chart_type](target);
+		const chart = new google.visualization[chart_type](target);
 		chart.draw(data, chart_options);
 	}
 }

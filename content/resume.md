@@ -30,15 +30,15 @@ Disciplined refactoring + pinning tests. Mobbing.
 
 Wrote 99.95% fewer bugs than prior releases.
 {{% /flow-item %}}
-{{< chart-line "Outcome: Save $1bn Annually" "[['string', 'Food'], ['number', 'Qty']]">}}
+{{< chart-area "Outcome: Save $1bn Annually" "[['string', 'Quarter'], ['number', 'Features'], ['number', 'Other Eng'], ['number', 'Ops'], ['number', 'Profit']]" "{'isStacked': true, 'vAxis': {'title': 'Spend', 'format': '$#,###M'}, 'legend': {'position': 'top', 'textStyle': {'fontSize': 7}}}">}}
 [
-	['Mushrooms', 3],
-	['Onions', 1],
-	['Olives', 1],
-	['Zucchini', 1],
-	['Pepperoni', 2]
+	['H1 2013', 28.6, 200.2, 343.2, 150],
+	['H2 2014', 28.6, 200.2, 343.2, 150],
+	['H1 2014', 127.4, 101.4, 343.2, 150],
+	['H2 2014', 223.6, 5.2, 15.6, 477.6],
+	['H1 2015', 223.6, 5.2, 15.6, 477.6]
 ]
-{{< /chart-line>}}
+{{< /chart-area>}}
 {{% /timeline-entry %}}
 
 {{% timeline-entry when="2022" category="success" %}}
