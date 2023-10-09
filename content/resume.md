@@ -16,6 +16,31 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 
 {{< timeline from="1999" to="2024" >}}
 
+{{% timeline-entry when="2022" category="success" %}}
+{{% flow-item css_class="description" %}}
+### Problem
+
+Lead time from installer built & validated to first use was ~18 mo, limiting customer adoption.
+
+### Action
+
+NoOps model. Auto-gen FDA approval docs from git history + tests. Auto-gen spec website from tests. Auto-gen customer validation suite core from tests.
+
+### Direct Result
+
+Reduced lead time by 84%; reduced work time by 96%.
+{{% /flow-item %}}
+{{< chart-bar "84% Less Release Delay (in weeks)" "[['string', 'Category'], ['number', 'Before'], ['number', 'After']]">}}
+[
+	['FDA', 16, 0.5],
+	['Doc Gen', 5, 0.1],
+	['Training', 3, 0.5],
+	['Adoption', 40, 10],
+	['Deploy', 9, 0.1]
+]
+{{< /chart-bar>}}
+{{% /timeline-entry %}}
+
 {{% timeline-entry when="2013" category="success" %}}
 {{% flow-item css_class="description" %}}
 ### Problem
@@ -39,18 +64,6 @@ Wrote 99.95% fewer bugs than prior releases.
 	['H1 2015', 223.6, 5.2, 15.6, 477.6]
 ]
 {{< /chart-area>}}
-{{% /timeline-entry %}}
-
-{{% timeline-entry when="2022" category="success" %}}
-{{< chart-bar "93% Less Release Delay (in weeks)" "[['string', 'Category'], ['number', 'Before'], ['number', 'After']]">}}
-[
-	['FDA', 16, 0.5],
-	['Doc Gen', 5, 0.1],
-	['Training', 3, 0.5],
-	['Adoption', 40, 10],
-	['Deploy', 9, 0.1]
-]
-{{< /chart-bar>}}
 {{% /timeline-entry %}}
 
 {{% timeline-range from="1999" to="2010" category="era" %}}
