@@ -28,6 +28,18 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 {{< /chart-bar>}}
 {{% /timeline-entry %}}
 
+{{% timeline-entry when="2023" category="success-2" %}}
+{{< chart-line "Bigger win" "[['string', 'Food'], ['number', 'Qty']]">}}
+[
+	['Mushrooms', 3],
+	['Onions', 1],
+	['Olives', 1],
+	['Zucchini', 1],
+	['Pepperoni', 2]
+]
+{{< /chart-line>}}
+{{% /timeline-entry %}}
+
 {{% timeline-range from="1999" to="2010" category="era" %}}
 Master Coding and Delivery
 {{% /timeline-range %}}

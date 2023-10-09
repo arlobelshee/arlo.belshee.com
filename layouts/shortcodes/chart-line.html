@@ -1,0 +1,1 @@
+<div class="google_chart" data-type="LineChart" data-title="{{ .Get 0 }}" data-cols='{{ replace (.Get 1) "'" "\"" }}' data-rows='{{ replaceRE `\s` "" (replace (.Inner) "'" "\"") }}'></div>

@@ -127,7 +127,7 @@ body {
 
 .timeline-track {
 	position: absolute;
-	left: 30%;
+	left: 22%;
 	top: 0;
 	bottom: 0;
 	width: 5px;
@@ -136,7 +136,7 @@ body {
 
 .timeline-year {
 	position: absolute;
-	left: 30%;
+	left: 22%;
 	border: var(--border);
 	z-index: 1;
 	background: var(--color-white);
@@ -234,48 +234,48 @@ h2.timeline-header {
 }
 
 h2.timeline-header.role.deep {
-	left: calc(38px + 5%);
+	left: calc(38px + 4%);
 	display: block;
 }
 
 .timeline-range.role.deep {
-	width: 10%;
+	width: 8%;
 	left: 30px;
 }
 
 h2.timeline-header.role.broad {
-	left: 21%;
+	left: 15%;
 	display: block;
 }
 
 .timeline-range.role.broad {
-	width: 10%;
-	left: 16%;
-}
-
-h2.timeline-header.publish {
-	left: 50%;
-	display: block;
-}
-
-.timeline-range.publish {
-	width: 10%;
-	left: 45%;
-}
-
-.timeline-entry.publish {
-	width: 10%;
-	left: 45%;
+	width: 8%;
+	left: 11%;
 }
 
 h2.timeline-header.learn {
-	left: 39%;
+	left: 30%;
 	display: block;
 }
 
 .timeline-range.learn {
 	width: 10%;
-	left: 34%;
+	left: 25%;
+}
+
+h2.timeline-header.publish {
+	left: 41%;
+	display: block;
+}
+
+.timeline-range.publish {
+	width: 10%;
+	left: 36%;
+}
+
+.timeline-entry.publish {
+	width: 10%;
+	left: 36%;
 }
 
 h2.timeline-header.success {
