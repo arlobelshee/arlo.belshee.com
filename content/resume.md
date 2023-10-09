@@ -16,8 +16,21 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 
 {{< timeline from="1999" to="2024" >}}
 
-{{% timeline-entry when="2013" category="success-1" %}}
-{{< chart-line "Save $1bn Annually" "[['string', 'Food'], ['number', 'Qty']]">}}
+{{% timeline-entry when="2013" category="success" %}}
+{{% flow-item css_class="description" %}}
+### Problem
+
+Port native code to run on Azure, while retaining bug-for-bug compatability.
+
+### Action
+
+Disciplined refactoring + pinning tests. Mobbing.
+
+### Direct Result
+
+Wrote 99.95% fewer bugs than prior releases.
+{{% /flow-item %}}
+{{< chart-line "Outcome: Save $1bn Annually" "[['string', 'Food'], ['number', 'Qty']]">}}
 [
 	['Mushrooms', 3],
 	['Onions', 1],
@@ -28,7 +41,7 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 {{< /chart-line>}}
 {{% /timeline-entry %}}
 
-{{% timeline-entry when="2022" category="success-2" %}}
+{{% timeline-entry when="2022" category="success" %}}
 {{< chart-bar "93% Less Release Delay (in weeks)" "[['string', 'Category'], ['number', 'Before'], ['number', 'After']]">}}
 [
 	['FDA', 16, 0.5],

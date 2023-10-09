@@ -295,14 +295,28 @@ h2.timeline-header.success {
 	display: block;
 }
 
-.timeline-entry.success-1 {
+.timeline-entry.success {
 	left: 47.5%;
-	width: 25%;
+	width: 52%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
 }
 
-.timeline-entry.success-2 {
-	left: 74%;
-	width: 25%;
+.timeline-entry.success .description {
+	margin-left: 1em;
+	grid-column: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.timeline-entry.success .description h3 {
+	margin-top: 0.4em;
+}
+
+.timeline-entry.success .google_chart {
+	grid-column: 2;
 }
 
 .timeline-range.era {
