@@ -16,20 +16,8 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 
 {{< timeline from="1999" to="2024" >}}
 
-{{% timeline-entry when="2016" category="success-1" %}}
-{{< chart-bar "Bigger win" "[['string', 'Food'], ['number', 'Qty']]">}}
-[
-	['Mushrooms', 3],
-	['Onions', 1],
-	['Olives', 1],
-	['Zucchini', 1],
-	['Pepperoni', 2]
-]
-{{< /chart-bar>}}
-{{% /timeline-entry %}}
-
-{{% timeline-entry when="2023" category="success-2" %}}
-{{< chart-line "Bigger win" "[['string', 'Food'], ['number', 'Qty']]">}}
+{{% timeline-entry when="2013" category="success-1" %}}
+{{< chart-line "Save $1bn Annually" "[['string', 'Food'], ['number', 'Qty']]">}}
 [
 	['Mushrooms', 3],
 	['Onions', 1],
@@ -38,6 +26,18 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 	['Pepperoni', 2]
 ]
 {{< /chart-line>}}
+{{% /timeline-entry %}}
+
+{{% timeline-entry when="2022" category="success-2" %}}
+{{< chart-bar "93% Less Release Delay (in weeks)" "[['string', 'Category'], ['number', 'Before'], ['number', 'After']]">}}
+[
+	['FDA', 16, 0.5],
+	['Doc Gen', 5, 0.1],
+	['Training', 3, 0.5],
+	['Adoption', 40, 10],
+	['Deploy', 9, 0.1]
+]
+{{< /chart-bar>}}
 {{% /timeline-entry %}}
 
 {{% timeline-range from="1999" to="2010" category="era" %}}
@@ -63,7 +63,7 @@ Lean Startup
 #### Clinisys
 ### Principal Architect
 
-Legacy recovery in regulated industry
+Legacy w/ FDA
 {{% /timeline-range %}}
 
 {{% timeline-range from="2016" to="2019" category="role deep" %}}
@@ -216,7 +216,5 @@ distributed systems (3), automating regulatory requirements (2)
 {{< /timeline >}}
 
 <sup>*</sup> Skills are listed in the year learned. Each lists years of experience in parentheses.
-
-* Code-oriented: , distributed systems.
 
 {{% /blank-space-fix %}}

@@ -127,7 +127,7 @@ body {
 
 .timeline-track {
 	position: absolute;
-	left: 22%;
+	left: 45%;
 	top: 0;
 	bottom: 0;
 	width: 5px;
@@ -136,7 +136,7 @@ body {
 
 .timeline-year {
 	position: absolute;
-	left: 22%;
+	left: 45%;
 	border: var(--border);
 	z-index: 1;
 	background: var(--color-white);
@@ -168,7 +168,8 @@ h2.timeline-header {
 	font-size: 75%;
 }
 
-.timeline-entry .arrow {
+.timeline-entry.success-1 .arrow,
+.timeline-entry.success-2 .arrow {
 	position: absolute;
 	left: calc(-5px - 1pt);
 	width: 0;
@@ -178,12 +179,22 @@ h2.timeline-header {
 	border-bottom: 2.5pt solid transparent;
 }
 
+.timeline-entry.publish .arrow {
+	position: absolute;
+	right: calc(-5px - 1pt);
+	width: 0;
+	height: 0;
+	border-top: 2.5pt solid transparent;
+	border-left: 5pt solid var(--color-text-normal);
+	border-bottom: 2.5pt solid transparent;
+}
+
 .timeline-range {
 	position: absolute;
 	font-size: 75%;
 }
 
-.timeline-range.role {
+.role, .learn, .publish {
 	text-align: right;
 }
 
@@ -222,16 +233,17 @@ h2.timeline-header {
 	overflow: visible;
 }
 
-.timeline-range.role::after {
+.timeline-range.role::after,
+.timeline-range.learn::after,
+.timeline-range.publish::after {
 	right: -10px;
 	border-left: var(--border);
 }
 
-.timeline-range.learn::after,
-.timeline-range.publish::after {
+ /* {
 	left: -10px;
 	border-right: var(--border);
-}
+} */
 
 h2.timeline-header.role.deep {
 	left: calc(38px + 4%);
@@ -254,43 +266,43 @@ h2.timeline-header.role.broad {
 }
 
 h2.timeline-header.learn {
-	left: 30%;
+	left: 25%;
 	display: block;
 }
 
 .timeline-range.learn {
 	width: 10%;
-	left: 25%;
+	left: 20%;
 }
 
 h2.timeline-header.publish {
-	left: 41%;
+	left: 37%;
 	display: block;
 }
 
 .timeline-range.publish {
-	width: 10%;
-	left: 36%;
+	width: 10.5%;
+	left: 31.5%;
 }
 
 .timeline-entry.publish {
-	width: 10%;
-	left: 36%;
+	width: 10.5%;
+	left: 31%;
 }
 
 h2.timeline-header.success {
-	left: 77.5%;
+	left: 74%;
 	display: block;
 }
 
 .timeline-entry.success-1 {
-	left: 57%;
-	width: 20%;
+	left: 47.5%;
+	width: 25%;
 }
 
 .timeline-entry.success-2 {
-	left: 78%;
-	width: 20%;
+	left: 74%;
+	width: 25%;
 }
 
 .timeline-range.era {

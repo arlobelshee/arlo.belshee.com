@@ -14,7 +14,10 @@ function drawCharts() {
 		const title = target.getAttribute('data-title');
 		var chart_options = {
 			title: title,
-			legend: 'none'
+			legend: { position: 'bottom' },
+			series: [{color: 'blue'}, {color: 'olive'}],
+			width: target.clientWidth - 4,
+			height: 150,
 		};
 		const chart_type = target.getAttribute('data-type');
 		var chart = new google.visualization[chart_type](target);
