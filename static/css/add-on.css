@@ -53,13 +53,24 @@
 	header#header, section#menu, a#back-to-top {
 		display: none !important;
 	}
+
 	#main, body {
 		margin: 0 !important;
 		padding: 0 !important;
 	}
 
-	.timeline {
+	#resume .timeline {
 		font-size: 70%;
+	}
+
+	#resume a {
+		border: 0;
+	}
+}
+
+@media screen {
+	#resume .contact_info {
+		/* display: none; */
 	}
 }
 
@@ -112,6 +123,21 @@ body {
 
 #resume > h1 {
 	margin: 0;
+}
+
+#resume .contact_info * {
+	margin: 0 0 0.4em;
+	line-height: 1.0;
+	text-align: right;
+}
+
+#resume .contact_info {
+	border-radius: 4px;
+	border: 1px solid var(--color-text-subtle);
+	width: fit-content;
+	padding: 0.5em;
+	float: right;
+	margin: 0 0 1em 1.5em;
 }
 
 /* Timeline */
@@ -207,6 +233,7 @@ h2.timeline-header {
 	left: 0;
 	width: 20px;
 	margin: 0;
+	display: none;
 }
 
 .timeline-entry-relative .dot {
@@ -215,6 +242,7 @@ h2.timeline-header {
 	border-radius: 50%;
 	border: 2pt solid black;
 	transform: translate(-50%, -50%);
+	display: none;
 }
 
 .role, .learn, .publish {

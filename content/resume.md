@@ -6,6 +6,16 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 +++
 {{% blank-space-fix %}}
 
+<div class="contact_info">
+
+# Arlo Belshee
+
+arlo@belshee.com | +1.503.875.1234
+
+gh, in, and x: arlobelshee
+
+https://arlobelshee.com/
+</div>
 
 # TL;DR
 
