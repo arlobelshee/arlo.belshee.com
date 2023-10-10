@@ -17,7 +17,7 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 {{< timeline from="1999" to="2024" >}}
 
 <div class="successes">
-{{% timeline-entry-relative when="2022" category="success" midpoint="12.5" %}}
+{{% timeline-entry-relative when="2021" category="success" midpoint="12.5" %}}
 {{% flow-item css_class="description" %}}
 ### Problem
 
@@ -31,7 +31,7 @@ NoOps model. Auto-gen FDA approval docs from git history + tests. Auto-gen spec 
 
 Reduced lead time by 84%; reduced work time by 96%.
 {{% /flow-item %}}
-{{< chart-bar "84% Less Release Delay (in weeks)" "[['string', 'Category'], ['number', 'Before'], ['number', 'After']]">}}
+{{< chart-bar "Outcome: 84% Less Release Delay" "[['string', 'Category'], ['number', 'Before'], ['number', 'After']]">}}
 [
 	['FDA', 16, 0.5],
 	['Doc Gen', 5, 0.1],
@@ -46,25 +46,25 @@ Reduced lead time by 84%; reduced work time by 96%.
 {{% flow-item css_class="description" %}}
 ### Problem
 
-
+120 teams in one Monolith. Cross-team dependencies prevented independent delivery. Code snarls prevent breaking dependencies.
 
 ### Action
 
-
+Actionable Suggestions, guided by data. Disciplined refactoring, with recipes.
 
 ### Direct Result
 
-
+Broke the code dependencies in 6 months. Teams started shipping independently.
 {{% /flow-item %}}
-{{< chart-area "Outcome: ???" "[['string', 'Quarter'], ['number', 'Features'], ['number', 'Other Eng'], ['number', 'Ops'], ['number', 'Profit']]" "">}}
+{{< chart-line "Outcome: Fixed all extra dependencies" "[['string', 'Quarter'], ['number', 'Dependencies']]" "">}}
 [
-	['H1 2013', 28.6, 200.2, 343.2, 150],
-	['H2 2014', 28.6, 200.2, 343.2, 150],
-	['H1 2014', 127.4, 101.4, 343.2, 150],
-	['H2 2014', 223.6, 5.2, 15.6, 477.6],
-	['H1 2015', 223.6, 5.2, 15.6, 477.6]
+	['', 13000],
+	['', 6000],
+	['', 2000],
+	['', 2000],
+	['', 0]
 ]
-{{< /chart-area>}}
+{{< /chart-line>}}
 {{% /timeline-entry-relative %}}
 
 {{% timeline-entry-relative when="2013" category="success" midpoint="62.5" %}}
@@ -81,15 +81,39 @@ Disciplined refactoring + pinning tests. Mobbing.
 
 Wrote 99.95% fewer bugs than prior releases.
 {{% /flow-item %}}
-{{< chart-area "Outcome: Save $1bn Annually" "[['string', 'Quarter'], ['number', 'Features'], ['number', 'Other Eng'], ['number', 'Ops'], ['number', 'Profit']]" "{'isStacked': true, 'vAxis': {'title': 'Spend', 'format': '$#,###M'}, 'legend': {'position': 'top', 'textStyle': {'fontSize': 7}}}">}}
+{{< chart-area "Outcome: Save $1bn Annually" "[['string', 'Quarter'], ['number', 'Features'], ['number', 'Eng Waste'], ['number', 'Ops'], ['number', 'Profit']]" "{'isStacked': true, 'vAxis': {'title': 'Spend', 'format': '$#,###M'}, 'legend': {'position': 'top', 'textStyle': {'fontSize': 7}}}">}}
 [
 	['H1 2013', 28.6, 200.2, 343.2, 150],
 	['H2 2014', 28.6, 200.2, 343.2, 150],
-	['H1 2014', 127.4, 101.4, 343.2, 150],
+	['H1 2014', 167.4, 61.4, 343.2, 150],
 	['H2 2014', 223.6, 5.2, 15.6, 477.6],
 	['H1 2015', 223.6, 5.2, 15.6, 477.6]
 ]
 {{< /chart-area>}}
+{{% /timeline-entry-relative %}}
+
+{{% timeline-entry-relative when="2001" category="success" midpoint="87.5" %}}
+{{% flow-item css_class="description" %}}
+### Problem
+
+Company was going out of business in 4 months unless we could ship. And we couldn't.
+
+### Action
+
+Extreme Programming with 1-week cycles.
+
+### Direct Result
+
+We shipped in 3 months (1 month early). Then used our extra month to do ~25 extra design turns.
+{{% /flow-item %}}
+{{< chart-bar "Outcome: Company survived" "[['string', 'Release'], ['number', 'Release Duration (weeks)']]" "">}} 
+[
+	['Prior', 90],
+	['First XP', 13],
+	['Second', 1],
+	['Third', 0.5]
+]
+{{< /chart-bar>}}
 {{% /timeline-entry-relative %}}
 </div>
 
