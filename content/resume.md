@@ -7,9 +7,6 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 {{% blank-space-fix %}}
 
 <div class="contact_info">
-
-# Arlo Belshee
-
 arlo@belshee.com | +1.503.875.1234
 
 gh, in, and x: arlobelshee
@@ -17,10 +14,11 @@ gh, in, and x: arlobelshee
 https://arlobelshee.com/
 </div>
 
+<p class="tagline">I lead using data before influence, and influence before authority.</p>
+
 # TL;DR
 
-* I am here to improve the (often woeful) state of software engineering using tools, data, and a deep respect for both past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
-* I lead using data before influence, and influence before authority.
+I am here to improve the (often woeful) state of software engineering using tools, data, and a deep respect for both past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
 
 <div class="total_experience">
 {{< chart-bar "Total Experience" "[['string', 'Contribution'], ['number', 'Years'], {'role': 'style'}]" "{'legend': 'none'}" >}}

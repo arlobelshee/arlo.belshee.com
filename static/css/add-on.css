@@ -8,7 +8,7 @@
 	--color-text-normal: black;
 	--color-text-normal-on-dark-bg: #e3e3e3;
 	--color-text-lighter: #666666;
-	--color-text-subtle: #cbcbcb;
+	--color-text-subtle: #919191;
 	--color-text-subtle-on-dark-bg: #b3a3b3;
 	--color-text-on-light-controls: #3b3b3b;
 	--border: 1px solid var(--color-black);
@@ -50,17 +50,30 @@
 /* Print styles */
 
 @media print {
-	header#header, section#menu, a#back-to-top {
+	section#menu, a#back-to-top {
 		display: none !important;
 	}
 
-	#main, body {
+	header#header {
+		visibility: hidden !important;
+	}
+
+	header#header .navbar-brand {
+		visibility: visible;
+	}
+
+	body {
 		margin: 0 !important;
 		padding: 0 !important;
 	}
 
+	#main {
+		margin: 3.5em 0 0 !important;
+		padding: 0 !important;
+	}
+
 	#resume .timeline {
-		font-size: 70%;
+		font-size: 85%;
 	}
 
 	#resume a {
@@ -130,6 +143,20 @@ body {
 	margin: 0;
 }
 
+#resume h1,
+#resume h2,
+#resume h3,
+#resume h4,
+#resume h5,
+#resume h6 {
+	color: var(--color-text-subtle);
+}
+
+#resume .tagline {
+	font-style: italic;
+	margin-bottom: 0.3em;
+}
+
 #resume .contact_info * {
 	margin: 0 0 0.4em;
 	line-height: 1.0;
@@ -142,7 +169,7 @@ body {
 	width: fit-content;
 	padding: 0.5em;
 	float: right;
-	margin: 0 0 1em 1.5em;
+	margin: -3em 0.2em 1em 1.5em;
 }
 
 #resume .total_experience {
@@ -221,7 +248,7 @@ body {
 	line-height: 1.0;
 }
 
-h2.timeline-header {
+#resume h2.timeline-header {
 	font-size: 90%;
 	font-weight: bold;
 	color: var(--color-text-lighter);
@@ -230,7 +257,6 @@ h2.timeline-header {
 	position: absolute;
 	top: -13pt;
 	transform: translate(-50%, 0);
-	display: none;
 }
 
 .timeline-range {
@@ -352,7 +378,6 @@ h2.timeline-header {
 
 h2.timeline-header.role.deep {
 	left: calc(38px + 4%);
-	display: block;
 }
 
 .timeline-range.role.deep {
@@ -362,7 +387,6 @@ h2.timeline-header.role.deep {
 
 h2.timeline-header.role.broad {
 	left: 15%;
-	display: block;
 }
 
 .timeline-range.role.broad {
@@ -372,7 +396,6 @@ h2.timeline-header.role.broad {
 
 h2.timeline-header.learn {
 	left: 25%;
-	display: block;
 }
 
 .timeline-range.learn {
@@ -382,7 +405,6 @@ h2.timeline-header.learn {
 
 h2.timeline-header.publish {
 	left: 37%;
-	display: block;
 }
 
 .timeline-range.publish {
@@ -397,7 +419,6 @@ h2.timeline-header.publish {
 
 h2.timeline-header.success {
 	left: 74%;
-	display: block;
 }
 
 div.successes {
