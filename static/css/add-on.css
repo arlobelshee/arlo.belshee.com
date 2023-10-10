@@ -221,7 +221,10 @@ h2.timeline-header {
 	text-align: right;
 }
 
-.timeline-range.role, .timeline-range.learn {
+.timeline-range.role,
+.timeline-range.learn,
+.timeline-entry-relative .google_chart,
+.timeline-entry-relative.success .description {
 	overflow: visible;
 	display: flex;
 	flex-direction: column;
@@ -232,7 +235,7 @@ h2.timeline-header {
 	padding-top: 0.7em;
 }
 
-.timeline-entry *, .timeline-entry-relative *, .timeline-range.role *, .timeline-range.publish * {
+.timeline-entry *, .timeline-entry-relative .description *, .timeline-range.role *, .timeline-range.publish * {
 	line-height: 1.0;
 	margin-bottom: 0.2em;
 }
@@ -340,9 +343,6 @@ div.successes {
 .timeline-entry-relative.success .description {
 	margin-left: 1em;
 	grid-column: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
 
 .timeline-entry-relative.success .description h3 {

@@ -18,7 +18,7 @@ function drawCharts() {
 			legend: { position: 'bottom' },
 			series: [{ color: 'blue' }, { color: 'olive' }, { color: 'goldenrod' }],
 			width: target.clientWidth - 4,
-			height: 150,
+			height: 190,
 		};
 		Object.assign(chart_options, options);
 		const chart_type = target.getAttribute('data-type');
