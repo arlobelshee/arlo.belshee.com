@@ -2,4 +2,4 @@
 {{- $people := .Get "people" | default 0 }}
 {{- $system := .Get "system" | default 0 }}
 {{- $create := .Get "create" | default 0 }}
-<div class="google_chart job_allocation" data-type="PieChart" data-options='{"width": 30, "height": 30, "legend": "none", "pieSliceText": "none", "slices": [{ "color": "purple" }, { "color": "orange" }, { "color": "blue" }, { "color": "red" }]}' data-cols='[["string","Contribution"],["number","Percentage"]]' data-rows='[["Strategic Vision", {{ $visionary }}],["Enhance People", {{ $people }}],["System Influence", {{ $system }}],["Create", {{ $create }}]]'></div>
+<h4 class="company_name"><div class="google_chart job_allocation" data-type="PieChart" data-options='{"width": 30, "height": 30, "legend": "none", "pieSliceText": "none", "slices": [{ "color": "purple" }, { "color": "orange" }, { "color": "blue" }, { "color": "red" }]}' data-cols='[["string","Contribution"],["number","Percentage"]]' data-rows='[["Strategic Vision", {{ $visionary }}],["Enhance People", {{ $people }}],["System Influence", {{ $system }}],["Create", {{ $create }}]]'></div><div>{{ .Get "job" }}</div></h4>

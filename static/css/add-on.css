@@ -255,7 +255,7 @@ body {
 	width: fit-content;
 	padding: 0 0.4em;
 	position: absolute;
-	top: -13pt;
+	top: -18pt;
 	transform: translate(-50%, 0);
 }
 
@@ -433,15 +433,25 @@ div.successes {
 	padding-left: 20px;
 }
 
-.role .job_allocation {
+.role h4.company_name {
+	position: relative;
+	z-index: auto;
+}
+
+.role h4.company_name div {
+	position: relative;
+	display: inline-block;
+}
+
+.role h4.company_name .job_allocation {
 	position: absolute;
-	top: 0;
+	top: -10px;
 	left: 0;
 	z-index: 0;
 }
 
-.role .job_allocation * {
-	z-index: 0;
+#resume .role h4.company_name div.job_allocation * {
+	z-index: 0 !important;
 }
 
 .timeline-entry-relative.success {

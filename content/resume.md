@@ -154,32 +154,28 @@ Lead & Mentor Legacy Code Saves
 {{% /timeline-range %}}
 
 {{% timeline-range from="2022" to="2024" category="role deep" %}}
-{{< chart-job-breakdown vision="10" create="90" >}}
-#### Eolus.ai
+{{< chart-job-breakdown job="Eolus.ai" vision="10" create="90" >}}
 ### Tech Founder
 
 Lean Startup
 {{% /timeline-range %}}
 
 {{% timeline-range from="2020" to="2022" category="role deep" %}}
-{{< chart-job-breakdown vision="50" people="30" create="20" >}}
-#### Clinisys
+{{< chart-job-breakdown job="Clinisys" vision="50" people="30" create="20" >}}
 ### Principal Architect
 
 Legacy w/ FDA
 {{% /timeline-range %}}
 
 {{% timeline-range from="2016" to="2019" category="role deep" %}}
-{{< chart-job-breakdown vision="20" people="50" system="30" >}}
-#### Tableau
+{{< chart-job-breakdown job="Tableau" vision="20" people="50" system="30" >}}
 ### Staff DevOps Coach
 
 Data-driven refactoring
 {{% /timeline-range %}}
 
 {{% timeline-range from="2011" to="2014" category="role deep" %}}
-{{< chart-job-breakdown people="60" create="20" system="20" >}}
-#### Microsoft
+{{< chart-job-breakdown job="Microsoft" people="60" create="20" system="20" >}}
 ### Sr. Engineer
 
 Engineering Excellence
@@ -188,8 +184,7 @@ Code in Windows, Office, Visual Studio
 {{% /timeline-range %}}
 
 {{% timeline-range from="2006" to="2009" category="role deep" %}}
-{{< chart-job-breakdown create="100" >}}
-#### BlueTech
+{{< chart-job-breakdown job="BlueTech" create="100" >}}
 ### Sr. Developer
 
 Extreme Programing
@@ -198,16 +193,14 @@ Mobile & web
 {{% /timeline-range %}}
 
 {{% timeline-range from="2004" to="2006" category="role deep" %}}
-{{< chart-job-breakdown create="100" >}}
-#### Critical Path Software
+{{< chart-job-breakdown job="Critical Path Software" create="100" >}}
 ### Sr. Developer
 
 DevOps in legacy code
 {{% /timeline-range %}}
 
 {{% timeline-range from="1999" to="2003" category="role deep" %}}
-{{< chart-job-breakdown people="80" vision="20" >}}
-#### Silver Platter
+{{< chart-job-breakdown job="Silver Platter" people="80" vision="20" >}}
 ### CTO, Tech Lead
 
 60 reports (as CTO)
@@ -218,16 +211,14 @@ Extreme Programming
 {{% /timeline-range %}}
 
 {{% timeline-range from="2013" to="2024" category="role broad" %}}
-{{< chart-job-breakdown people="70" vision="30" >}}
-#### Deep Roots
+{{< chart-job-breakdown job="Deep Roots" people="70" vision="30" >}}
 ### Distinguished Engineer
 
 Fortune 50 clients
 {{% /timeline-range %}}
 
 {{% timeline-range from="2009" to="2011" category="role broad" %}}
-{{< chart-job-breakdown people="50" create="50" >}}
-#### Innovating Teams
+{{< chart-job-breakdown job="Innovating Teams" people="50" create="50" >}}
 ### XP Consultant
 
 Healthcare clients
