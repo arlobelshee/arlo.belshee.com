@@ -146,13 +146,13 @@ body {
 }
 
 #resume .total_experience {
-	width: 35%;
-	float: left;
+	clear: both;
+	display: flex;
+	align-items: center;
 }
 
-#resume .total_experience p {
-	font-size: 60%;
-	color: var(--color-text-lighter);
+#resume .total_experience .google_chart {
+	width: 35%;
 }
 
 #resume .total_experience ul li {
@@ -163,7 +163,7 @@ body {
 #resume .total_experience ul li::before {
 	display: inline-block;
 	content: '';
-	margin: 0 0.6em;
+	margin: 0 0.6em 0 0;
 	width: 1.4em;
 	height: 1em;
 }

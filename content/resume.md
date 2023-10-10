@@ -19,11 +19,13 @@ https://arlobelshee.com/
 
 # TL;DR
 
+* I am here to improve the (often woeful) state of software engineering using tools, data, and a deep respect for both past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
+* I lead using data before influence, and influence before authority.
+
 <div class="total_experience">
-{{< chart-bar "Total Experience (Years)" "[['string', 'Contribution'], ['number', 'Strategic Vision'], ['number', 'Enhance People'], ['number', 'System Influence'], ['number', 'Create']]" "{'legend': 'none', 'series': [{ 'color': 'purple' }, { 'color': 'orange' }, { 'color': 'blue' }, { 'color': 'red' }]}" >}}
+{{< chart-bar "Total Experience" "[['string', 'Contribution'], ['number', 'Strategic Vision'], ['number', 'Enhance People'], ['number', 'System Influence'], ['number', 'Create']]" "{'legend': 'none', 'series': [{ 'color': 'purple' }, { 'color': 'orange' }, { 'color': 'blue' }, { 'color': 'red' }]}" >}}
 [
-	['Strict *', 5.7, 7.9, 1.5, 7.4],
-	['Resume *', 18, 14, 6, 12]
+	['Years', 18, 14, 6, 12]
 ]
 {{< /chart-bar >}}
 
@@ -31,13 +33,7 @@ https://arlobelshee.com/
 * **Enhance People & Teams**: manage direct reports, mentor skills, build teams, and create psychological safety.
 * **System Influence**: help other visionaries attain their goals by influencing the system and people across the organization.
 * **Create**: create software products, including all of DevSecOps.
-
-\* Jobs often involve multiple kinds of contribution. Standard resume practice is to count those years as whichever contribution matches this job, with I followed as "Resume Years." Below, I indicated the percentage of each contribution per role. I used that to calculate "Strict Years," in which no time is double-counted.
-
 </div>
-
-* I am here to improve the (often woeful) state of software engineering using tools, data, and a deep respect for both past and future. I've guided both teams and organizations to #ZeroBugs and continuous, easy delivery.
-* I lead using data before influence, and influence before authority.
 
 # Timeline { .timeline-start }
 
