@@ -16,7 +16,7 @@ function drawCharts() {
 		const chart_options = {
 			title: title,
 			legend: { position: 'bottom' },
-			series: [{ color: 'blue' }, { color: 'olive' }, { color: 'goldenrod' }],
+			series: [{ color: 'blue' }, { color: 'olive' }, { color: 'goldenrod' }, { color: 'green' }],
 			width: target.clientWidth - 4,
 			height: 190,
 		};
