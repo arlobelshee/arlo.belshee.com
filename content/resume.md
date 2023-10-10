@@ -23,9 +23,12 @@ https://arlobelshee.com/
 * I lead using data before influence, and influence before authority.
 
 <div class="total_experience">
-{{< chart-bar "Total Experience" "[['string', 'Contribution'], ['number', 'Strategic Vision'], ['number', 'Enhance People'], ['number', 'System Influence'], ['number', 'Create']]" "{'legend': 'none', 'series': [{ 'color': 'purple' }, { 'color': 'orange' }, { 'color': 'blue' }, { 'color': 'red' }]}" >}}
+{{< chart-bar "Total Experience" "[['string', 'Contribution'], ['number', 'Years'], {'role': 'style'}]" "{'legend': 'none'}" >}}
 [
-	['Years', 18, 14, 6, 12]
+	['Vision', 18, 'color: purple'],
+	['People', 14, 'color: orange'],
+	['Influence', 6, 'color: blue'],
+	['Create', 12, 'color: red']
 ]
 {{< /chart-bar >}}
 

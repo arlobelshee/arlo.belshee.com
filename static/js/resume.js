@@ -5,8 +5,11 @@ function drawCharts() {
 	for (const target of document.getElementsByClassName('google_chart')) {
 		var data = new google.visualization.DataTable();
 		const cols = JSON.parse(target.getAttribute('data-cols'));
-		for (col of cols) {
-			data.addColumn(...col);
+		for (let col of cols) {
+			if (col instanceof Array)
+				data.addColumn(...col);
+			else
+				data.addColumn(col);
 		}
 		const rows = JSON.parse(target.getAttribute('data-rows'));
 		data.addRows(rows);
