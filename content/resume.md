@@ -316,6 +316,6 @@ distributed systems (3), automating regulatory requirements (2)
 
 {{< /timeline >}}
 
-<sup>*</sup> Skills are listed in the year learned. Years of experience are in parentheses.
+<sup>*</sup> Skills are listed in the year learned. Subsequent years of experience are shown in parentheses.
 
 {{% /blank-space-fix %}}
