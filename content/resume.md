@@ -42,32 +42,7 @@ Reduced lead time by 84%; reduced work time by 96%.
 {{< /chart-bar>}}
 {{% /timeline-entry-relative %}}
 
-{{% timeline-entry-relative when="2018" category="success" midpoint="37.5" %}}
-{{% flow-item css_class="description" %}}
-### Problem
-
-120 teams in one Monolith. Cross-team dependencies prevented independent delivery. Code snarls prevent breaking dependencies.
-
-### Action
-
-Actionable Suggestions, guided by data. Disciplined refactoring, with recipes.
-
-### Direct Result
-
-Broke the code dependencies in 6 months. Teams started shipping independently.
-{{% /flow-item %}}
-{{< chart-line "Outcome: Fixed all extra dependencies" "[['string', 'Quarter'], ['number', 'Dependencies']]" "">}}
-[
-	['', 13000],
-	['', 6000],
-	['', 2000],
-	['', 2000],
-	['', 0]
-]
-{{< /chart-line>}}
-{{% /timeline-entry-relative %}}
-
-{{% timeline-entry-relative when="2013" category="success" midpoint="62.5" %}}
+{{% timeline-entry-relative when="2013" category="success" midpoint="37.5" %}}
 {{% flow-item css_class="description" %}}
 ### Problem
 
@@ -90,6 +65,31 @@ Wrote 99.95% fewer bugs than prior releases.
 	['H1 2015', 223.6, 5.2, 15.6, 477.6]
 ]
 {{< /chart-area>}}
+{{% /timeline-entry-relative %}}
+
+{{% timeline-entry-relative when="2018" category="success" midpoint="62.5" %}}
+{{% flow-item css_class="description" %}}
+### Problem
+
+120 teams in one Monolith. Cross-team dependencies prevented independent delivery. Code snarls prevent breaking dependencies.
+
+### Action
+
+Actionable Suggestions, guided by data. Disciplined refactoring, with recipes.
+
+### Direct Result
+
+Broke the code dependencies in 6 months. Teams started shipping independently.
+{{% /flow-item %}}
+{{< chart-line "Outcome: Fixed all extra dependencies" "[['string', 'Quarter'], ['number', 'Dependencies']]" "">}}
+[
+	['', 13000],
+	['', 6000],
+	['', 2000],
+	['', 2000],
+	['', 0]
+]
+{{< /chart-line>}}
 {{% /timeline-entry-relative %}}
 
 {{% timeline-entry-relative when="2001" category="success" midpoint="87.5" %}}
@@ -292,6 +292,6 @@ distributed systems (3), automating regulatory requirements (2)
 
 {{< /timeline >}}
 
-<sup>*</sup> Skills are listed in the year learned. Each lists years of experience in parentheses.
+<sup>*</sup> Skills are listed in the year learned. Years of experience are in parentheses.
 
 {{% /blank-space-fix %}}

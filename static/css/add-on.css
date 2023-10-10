@@ -106,7 +106,7 @@ body {
 
 /* Resume-specific */
 
-#resume ul {
+#resume > ul {
 	margin-bottom: 0.3em;
 }
 
@@ -118,7 +118,7 @@ body {
 
 .timeline {
 	position: relative;
-	height: 7.5in;
+	height: 9.5in;
 	width: 100%;
 	padding: 0.5em 0;
 	overflow: visible;
@@ -158,6 +158,11 @@ h2.timeline-header {
 	display: none;
 }
 
+.timeline-range {
+	position: absolute;
+	font-size: 80%;
+}
+
 .timeline-entry {
 	position: absolute;
 	border-radius: 0.4em;
@@ -165,36 +170,35 @@ h2.timeline-header {
 	padding: 4px 2px 2px;
 	margin-left: 4px;
 	overflow: visible;
-	font-size: 75%;
+	font-size: 80%;
+}
+
+.timeline-entry .arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 2.5pt solid transparent;
+	border-bottom: 2.5pt solid transparent;
 }
 
 .timeline-entry.success .arrow {
-	position: absolute;
-	left: calc(-5px - 1pt);
-	width: 0;
-	height: 0;
-	border-top: 2.5pt solid transparent;
 	border-right: 5pt solid var(--color-text-normal);
-	border-bottom: 2.5pt solid transparent;
+	left: calc(-5px - 1pt);
 }
 
 .timeline-entry.publish .arrow {
-	position: absolute;
 	right: calc(-5px - 1pt);
-	width: 0;
-	height: 0;
-	border-top: 2.5pt solid transparent;
 	border-left: 5pt solid var(--color-text-normal);
-	border-bottom: 2.5pt solid transparent;
 }
 
 .timeline-entry-relative {
 	border-radius: 0.4em;
 	border: var(--border);
-	height: 25%;
+	height: 23%;
+	margin: 1% 0;
 	padding: 4px 2px 2px;
 	overflow: visible;
-	font-size: 75%;
+	font-size: 80%;
 }
 
 .timeline-entry-relative .arrow {
@@ -211,11 +215,6 @@ h2.timeline-header {
 	border-radius: 50%;
 	border: 2pt solid black;
 	transform: translate(-50%, -50%);
-}
-
-.timeline-range {
-	position: absolute;
-	font-size: 75%;
 }
 
 .role, .learn, .publish {
@@ -327,7 +326,6 @@ div.successes {
 	bottom: 0;
 	display: flex;
 	flex-direction: column;
-	gap: 2%;
 	justify-content: flex-start;
 	padding-left: 20px;
 }
