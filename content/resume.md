@@ -16,7 +16,8 @@ description = "Learn about Arlo Belshee. I am here to improve the (often woeful)
 
 {{< timeline from="1999" to="2024" >}}
 
-{{% timeline-entry when="2022" category="success" %}}
+<div class="successes">
+{{% timeline-entry-relative when="2022" category="success" midpoint="12.5" %}}
 {{% flow-item css_class="description" %}}
 ### Problem
 
@@ -39,9 +40,34 @@ Reduced lead time by 84%; reduced work time by 96%.
 	['Deploy', 9, 0.1]
 ]
 {{< /chart-bar>}}
-{{% /timeline-entry %}}
+{{% /timeline-entry-relative %}}
 
-{{% timeline-entry when="2013" category="success" %}}
+{{% timeline-entry-relative when="2018" category="success" midpoint="37.5" %}}
+{{% flow-item css_class="description" %}}
+### Problem
+
+
+
+### Action
+
+
+
+### Direct Result
+
+
+{{% /flow-item %}}
+{{< chart-area "Outcome: ???" "[['string', 'Quarter'], ['number', 'Features'], ['number', 'Other Eng'], ['number', 'Ops'], ['number', 'Profit']]" "">}}
+[
+	['H1 2013', 28.6, 200.2, 343.2, 150],
+	['H2 2014', 28.6, 200.2, 343.2, 150],
+	['H1 2014', 127.4, 101.4, 343.2, 150],
+	['H2 2014', 223.6, 5.2, 15.6, 477.6],
+	['H1 2015', 223.6, 5.2, 15.6, 477.6]
+]
+{{< /chart-area>}}
+{{% /timeline-entry-relative %}}
+
+{{% timeline-entry-relative when="2013" category="success" midpoint="62.5" %}}
 {{% flow-item css_class="description" %}}
 ### Problem
 
@@ -64,7 +90,8 @@ Wrote 99.95% fewer bugs than prior releases.
 	['H1 2015', 223.6, 5.2, 15.6, 477.6]
 ]
 {{< /chart-area>}}
-{{% /timeline-entry %}}
+{{% /timeline-entry-relative %}}
+</div>
 
 {{% timeline-range from="1999" to="2010" category="era" %}}
 Master Coding and Delivery

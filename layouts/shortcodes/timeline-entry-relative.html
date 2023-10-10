@@ -1,0 +1,14 @@
+{{- $timelineBegin := .Parent.Get "from" | float -}}
+{{ $timelineEnd := .Parent.Get "to" | float -}}
+{{ $timelineYearSize := (div 100.0 (sub $timelineEnd $timelineBegin)) -}}
+{{ $when := sub $timelineEnd (.Get "when" | float) -}}
+{{ $lineEnd := .Get "midpoint" | float -}}
+{{ $lineStart := mul $when $timelineYearSize -}}
+<div class="timeline-entry-relative{{ with .Get "category" }} {{ . }}{{ end }}">
+	{{- if gt $lineEnd $lineStart -}}
+	<div class="dot" style="top: {{ $lineStart }}%;"></div><svg class="arrow" style="top: {{ $lineStart }}%; height: {{ sub $lineEnd $lineStart }}%;" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 100 100"><line x1="2" y1="2" x2="100" y2="100" stroke="currentColor" stroke-width="2"/></svg>
+	{{ else -}}
+	<div class="dot" style="top: {{ $lineStart }}%;"></div><svg class="arrow" style="top: {{ $lineEnd }}%; height: {{ sub $lineStart $lineEnd }}%;" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 100 100"><line x1="2" y1="98" x2="100" y2="0" stroke="currentColor" stroke-width="2"/></svg>
+	{{ end -}}
+	{{ .Inner -}}
+</div>
