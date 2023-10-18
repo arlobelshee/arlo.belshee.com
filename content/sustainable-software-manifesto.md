@@ -3,6 +3,12 @@ title = "Sustainable Software Manifesto"
 id = "manifesto-sustainable"
 +++
 
+# Intention
+
+To align a subcommunity of software developers around a stated goal and way of being. To continually improve the way that subcommunity works internally and in relation to the others involved in creating successful software businesses.
+
+# Current Version
+
 We are uncovering better ways of growing software-oriented businesses from one success to the next by doing it and helping others do it.
 
 Through this work we have come to realize our role in a better world:
@@ -32,3 +38,5 @@ One peer zone brings that motion to the world. Together we deeply understand the
 Another peer zone explores new ideas to discard the many that don't work and the even more that work but don't scale to meet the needs of the business. Together we scale the winning ideas into major improvements to our business engine.
 
 Each business will have other peer zones that meet the needs of its environment. We collaborate with those zones to ensure those environmental needs connect well to our engine.
+
+# Past Versions and Change Process
